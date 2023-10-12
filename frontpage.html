@@ -4,36 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Landing Page</title>
+    
+    <link rel="stylesheet" href="logo.css">
     <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our School</h1>
-        <p>Empowering Future Generations</p>
-    </header>
 
-    <section class="about">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod nisl at libero ullamcorper consectetur.</p>
-    </section>
+    <nav class = "navbar">
+        <div class = "navbar__container">
+            <a href="#home" id = "navbar__logo"><img class = "logo" src="images/Logo.jpeg"></a>
+            <div class = "navbar__toggle" id = "mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="#about_page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#education" class="navbar__links" id="#education_page">Education</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#parents" class="navbar__links" id="#parents_page">Parents</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#employment" class="navbar__links" id="#employment_page">Employment</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="#contact_page">contact</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="" class="youtube"></a>
+                <a href="" class="insta"></a>
+                <a href="" class="facebook"></a>
+            </div>
+            
+        </div>
+    </nav>
 
-    <section class="programs">
-        <h2>Our Programs</h2>
-        <ul>
-            <li>Program 1</li>
-            <li>Program 2</li>
-            <li>Program 3</li>
-        </ul>
-    </section>
+    <div class="image_front">
+        
 
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@school.com</p>
-        <p>Phone: 123-456-7890</p>
-    </section>
+    </div>
 
-    <footer>
-        <p>&copy; 2023 School Name. All Rights Reserved.</p>
-    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
